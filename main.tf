@@ -44,7 +44,7 @@ output "network" {
 }
 
 output "subnetwork_name" {
-  value = google_compute_subnetwork.default.name
+  value = google_compute_subnetwork.private.name
 }
 
 output "cluster_name" {
