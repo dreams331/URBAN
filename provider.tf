@@ -20,16 +20,3 @@ resource "google_compute_network" "default" {
 }
 
 
-terraform {
-  backend "gcs" {
-    bucket = "urban-tf-state-staging"
-    prefix = terraform/state
-  }
-}  
-    
-required_providers {
-  google = {
-    source = hashicorp/google"
-    version = ~> 4.0"
-  }
-}  
