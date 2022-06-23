@@ -1,9 +1,9 @@
 variable "region" {
-  default = "us-west1"
+  default = "europe-west2"
 }
 
 variable "location" {
-  default = "us-west1-b"
+  default = "europe-west2-a"
 }
 
 variable "network_name" {
